@@ -5,6 +5,10 @@ import App from './App.vue'
 import router from '@/router'
 //3.导入element.js
 import '@/plugins/Element.js'
+//4.导入全局样式
+import '@/style/base.css'
+//5.导入axios文件request
+import '@/utils/request.js'
 
 
 Vue.config.productionTip = false

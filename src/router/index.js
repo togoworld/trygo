@@ -12,7 +12,7 @@ import layout from '@/views/layout'
 //创建路由规则
 const routes = [
     //路由重定向
-    {path:'*',redirect:'/login'},
+    // {path:'*',redirect:'/login'},
     //login
     { path: '/login', component: login },
     //layout
