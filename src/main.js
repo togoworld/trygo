@@ -1,11 +1,10 @@
+//1.导入Vue和根组件App.vue
 import Vue from 'vue'
 import App from './App.vue'
-//导入路由
+//2.导入路由
 import router from '@/router'
-//导入elementUI并注册
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI)
+//3.导入element.js
+import '@/plugins/Element.js'
 
 
 Vue.config.productionTip = false
